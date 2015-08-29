@@ -1,4 +1,6 @@
 # docker-wordpress-nginx
+Version with mysql linked container.
+
 
 A Dockerfile that installs the latest wordpress, nginx, php-apc and php-fpm.
 
@@ -12,15 +14,15 @@ The easiest way to get this docker image installed is to pull the latest version
 from the Docker registry:
 
 ```bash
-$ docker pull eugeneware/docker-wordpress-nginx
+$ docker pull daonerz/docker-wordpress-nginx
 ```
 
 If you'd like to build the image yourself then:
 
 ```bash
-$ git clone https://github.com/eugeneware/docker-wordpress-nginx.git
+$ git clone https://github.com/daonerz/docker-wordpress-nginx.git
 $ cd docker-wordpress-nginx
-$ sudo docker build -t="eugeneware/docker-wordpress-nginx" .
+$ sudo docker build -t="daonerz/docker-wordpress-nginx" .
 ```
 
 ## Usage
